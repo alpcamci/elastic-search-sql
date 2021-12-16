@@ -1,9 +1,9 @@
-### Elastic Search
+### Elasticsearch
 
-Elastic Search ve SQL arasında bağlantı oluşturmayı, ayrıca arama ve kaydetme işlemlerinin nasıl bağlantılı şekilde yapıldığına dair örnek gösterilmiştir.
+Elasticsearch ve SQL arasında bağlantı oluşturmayı, ayrıca arama ve kaydetme işlemlerinin nasıl bağlantılı şekilde yapıldığına dair örnek gösterilmiştir.
 
 - ES(ElasticSearch), Java diliyle yazılmıştır. Bu yüzden kuruluma başlamadan önce bilgisayarınızda JAVA’nın latest version ve bilgisayarınıza uyumlu olan bit(32/64) sürümü olduğundan emin olun. Emin değilseniz tüm Java kurulumlarını bilgisayarınızdan kaldırarak şuradan indirip kurabilirsiniz.
-- Elastic Search son versiyonunu [bu link](https://www.elastic.co/downloads/elasticsearch "bu link") üzerinden sunucuya indirebiliriz. İndirdiğimiz dosyayı C ye çıkartıyoruz ardından konfigürasyon için “C:\elasticsearch-7.10.2\config” dizinindeki “elasticsearch.yml” dosyasını editliyoruz.
+- Elasticsearch son versiyonunu [bu link](https://www.elastic.co/downloads/elasticsearch "bu link") üzerinden sunucuya indirebiliriz. İndirdiğimiz dosyayı C ye çıkartıyoruz ardından konfigürasyon için “C:\elasticsearch-7.10.2\config” dizinindeki “elasticsearch.yml” dosyasını editliyoruz.
 
 # Elasticsearh.yml
 
@@ -42,7 +42,7 @@ Browser üzerinden yapınızı yönetmek için **ElasticSearch Head** isimli ekl
 
 ![](https://i.hizliresim.com/bklqfch.png)
 
-Elastic Search bağlantısı için config.php dosyamız;
+Elasticsearch bağlantısı için config.php dosyamız;
 
 ```javascript
 <?php
